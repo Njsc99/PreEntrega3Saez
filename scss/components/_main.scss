@@ -1,0 +1,96 @@
+main {
+    .hero{
+        background-color: #57bd9e;
+        padding: 20px;
+        justify-content: space-between;
+        @extend %flex-center;
+        img{
+            width: 700px;
+            height: 400px;
+        }
+        div{
+            h1{
+                text-align: center;
+                font-size: 45px;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: justify;
+                width: 800px;
+                height: 40px;
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+    }
+
+    .adoptar{
+        background-color: #2ca880;
+        h2{
+            background-color: rgb(106, 207, 177) ;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border: 3px rgb(0, 174, 255) solid;
+            border-style: double;
+            text-transform: capitalize;
+        }
+
+        .grid-tarjetas{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: 550px;
+            gap: 15px;
+            justify-items: center;
+            align-items: center;
+            background-color: #2ca880;
+            .grid-tarjetas-item{
+                border: 2px black solid;
+                width: 350px;
+                height: 500px;
+                text-align: justify;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                -webkit-box-shadow: -7px -2px 37px -2px rgba(73,189,55,1);
+                -moz-box-shadow: -7px -2px 37px -2px rgba(73,189,55,1);
+                box-shadow: -7px -2px 37px -2px rgba(73,189,55,1);
+                img{
+                    width: 350px;
+                    height: 350px;
+                    padding: 10px;
+                }
+                p{
+                    margin: 10px;
+                }
+                a{
+                    /* background-color: #6acfb1 ; */
+                    background: rgb(41,225,116);
+                    background: linear-gradient(90deg, rgba(41,225,116,1) 0%, rgba(0,212,255,1) 0%);
+                    text-decoration: none;
+                    color:  white;
+                    padding: 10px;
+                    margin-left: 35%;
+                    transition-property: background;
+                    transition-duration: 0.5s;
+                    &:hover{
+                        background: rgb(41,225,116);
+                        background: linear-gradient(90deg, rgba(41,225,116,1) 100%, rgba(0,212,255,1) 100%);
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-adopcion{
+        background-color: #57bd9e;
+        padding: 20px;
+        h1{
+            text-align: center;
+        }
+    }
+
+    .formulario{
+        padding: 30px;
+        background-color: #14d69f;
+    }
+}

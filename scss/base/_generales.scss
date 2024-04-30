@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+//! EXTEND
+
+%flex-center{
+    display: flex;
+    align-items: center;
+}
+
+%size-img-footer{
+    width: 400px;
+    height: 400px;
+}
+
+//! MIXINS
+
+@mixin flex($flex,$direction,$justify,$margin){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    margin: $margin;
+}

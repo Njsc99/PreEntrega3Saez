@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Adopta mascotas | adopcion, alimentos y accesorios</title>
+    <link rel="shortcut icon" href="../img/pets.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg" class="menu-color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/encabezado.jpg" alt="Logo Pagina"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./adopcion.html">Dar en adopción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./alimentos.html">Alimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-adopcion">
+            <h1>Encuentra un hogar ahora</h1>
+            <p>Completa el siguiente formulario para que la mascota que tengas bajo tu cuidado pueda tener pronto un hogar y una familia con quienes ser feliz, ya sea, por que estaba abandonado en la calle o por motivos de que tus mascotas tuvieron crias y no los puedes cuidar a todos, no importa el motivo, la idea es poder encontrar a esa persona ideal que pueda hacerse cargo y asi no terminen en la calle.</p>
+        </section>
+        <section class="formulario">
+            <form>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre Responsable</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Ingrese su nombre completo">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Correo de Contacto</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputPassword3" placeholder="Ingrese su correo de contacto">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Nombre de Mascota</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputPassword3" placeholder="Ingrese nombre de mascota">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Edad de Mascota</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="inputPassword3" placeholder="Ingrese edad de mascota">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Tipo de Mascota</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputPassword3" placeholder="Perro, Gato, Hamster, loro, etc.">
+                    </div>
+                </div>
+                <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Genero</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Macho
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Hembra
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                ¿Tiene Vacunas al día? (Opcional)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <!-- <form action="">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre del responsable">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido del responsable">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese correo de contacto">
+            </div>
+            <div>
+                <label for="nombre-mascota">Nombre Mascota:</label>
+                <input type="text" name="nombre-mascota" id="nombre-mascota" placeholder="Ingrese nombre de mascota">
+            </div>
+            <div>
+                <label for="tipo-mascota">Ingrese el tipo de mascota:</label>
+                <div>
+                    <label for="perro">Perro</label>
+                    <input type="radio" name="tipo-mascota">
+                    <label for="gato">Gato</label>
+                    <input type="radio" name="tipo-mascota">
+                    <label for="ave">Ave</label>
+                    <input type="radio" name="tipo-mascota">
+                    <label for="roedor">Roedor</label>
+                    <input type="radio" name="tipo-mascota">
+                    <label for="otro">Otro:</label>
+                    <input type="radio" name="tipo-mascota">
+                    <input type="text" name="otro">
+                </div>
+            </div>
+            <div>
+                <label for="genero">Genero de mascota:</label>
+                <select name="" id="">
+                    <option value="">Macho</option>
+                    <option value="">Hembra</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form> -->
+
+    <footer class="grid-footer">
+        <!-- Imagen -->
+        <div class="grid-footer-items primer-item">
+            <img src="../img/footer1.jpg" alt="Voluntariado 1">
+        </div>
+        <!-- Redes sociales + texto -->
+        <div class="grid-footer-items segundo-item">
+            <div>
+                <a href=""><img src="../img/phone.png" alt="contacto"></a>
+                <p>(+562) 12345678</p>
+            </div>
+            <div>
+                <a href=""><img src="../img/instagram.png" alt="instagram"></a>
+                <p>@Adopta+cotas</p>
+            </div>
+            <div>
+                <a href=""><img src="../img/facebook.png" alt="facebook"></a>
+                <p>Adopta + cotas</p>
+            </div>
+        </div>
+        <!-- Imagen -->
+        <div class="grid-footer-items tercer-item">
+            <img src="../img/footer2.jpg" alt="Voluntariado 2">
+        </div>
+    </footer>
+
+</body>
+
+</html>

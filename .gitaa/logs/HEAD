@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 23bc636ad448ad674dcb9027b39441be1b4b5613 Nicolas Saez <nicolasj.saezc@gmail.com> 1713217113 -0400	commit (initial): primer commit
+23bc636ad448ad674dcb9027b39441be1b4b5613 23bc636ad448ad674dcb9027b39441be1b4b5613 Nicolas Saez <nicolasj.saezc@gmail.com> 1713221062 -0400	checkout: moving from master to paginas
+23bc636ad448ad674dcb9027b39441be1b4b5613 0000000000000000000000000000000000000000 Nicolas Saez <nicolasj.saezc@gmail.com> 1713223423 -0400	Branch: renamed refs/heads/paginas to refs/heads/master
+0000000000000000000000000000000000000000 23bc636ad448ad674dcb9027b39441be1b4b5613 Nicolas Saez <nicolasj.saezc@gmail.com> 1713223423 -0400	Branch: renamed refs/heads/paginas to refs/heads/master
+23bc636ad448ad674dcb9027b39441be1b4b5613 e694faa7aeac84de8328b7abd4f19b333aa2de5a Nicolas Saez <nicolasj.saezc@gmail.com> 1713223595 -0400	commit: imagenes eliminadas
+e694faa7aeac84de8328b7abd4f19b333aa2de5a e694faa7aeac84de8328b7abd4f19b333aa2de5a Nicolas Saez <nicolasj.saezc@gmail.com> 1713223772 -0400	checkout: moving from master to paginas
+e694faa7aeac84de8328b7abd4f19b333aa2de5a e694faa7aeac84de8328b7abd4f19b333aa2de5a Nicolas Saez <nicolasj.saezc@gmail.com> 1713223959 -0400	checkout: moving from paginas to master
+e694faa7aeac84de8328b7abd4f19b333aa2de5a e694faa7aeac84de8328b7abd4f19b333aa2de5a Nicolas Saez <nicolasj.saezc@gmail.com> 1713224228 -0400	checkout: moving from master to paginas
+e694faa7aeac84de8328b7abd4f19b333aa2de5a 3c5c993e2968f94d4b4b45257adee6b14ad4c96f Nicolas Saez <nicolasj.saezc@gmail.com> 1713227243 -0400	commit: paginas
+3c5c993e2968f94d4b4b45257adee6b14ad4c96f e694faa7aeac84de8328b7abd4f19b333aa2de5a Nicolas Saez <nicolasj.saezc@gmail.com> 1713227285 -0400	checkout: moving from paginas to master
+e694faa7aeac84de8328b7abd4f19b333aa2de5a 3c5c993e2968f94d4b4b45257adee6b14ad4c96f Nicolas Saez <nicolasj.saezc@gmail.com> 1713227298 -0400	merge paginas: Fast-forward
+3c5c993e2968f94d4b4b45257adee6b14ad4c96f 20aea812408146319d8771dbe12316f04facaa39 Nicolas Saez <nicolasj.saezc@gmail.com> 1713227909 -0400	commit: Actualizacion Responsive Index
+20aea812408146319d8771dbe12316f04facaa39 50f6ab6b20cc887a03b0d33e3b5fe7d9734003f2 Nicolas Saez <nicolasj.saezc@gmail.com> 1713228594 -0400	commit: Actualizacion Nav y Footer Paginas
+50f6ab6b20cc887a03b0d33e3b5fe7d9734003f2 02adedfa47d0585192bda1428c740fbf2e4a913b Nicolas Saez <nicolasj.saezc@gmail.com> 1714445368 -0400	commit: Cambios SCSS
+02adedfa47d0585192bda1428c740fbf2e4a913b f44a64e6e54a43896c2177c74f60f8a0d1fb1c83 Nicolas Saez <nicolasj.saezc@gmail.com> 1714445393 -0400	commit: Cambios SCSS
